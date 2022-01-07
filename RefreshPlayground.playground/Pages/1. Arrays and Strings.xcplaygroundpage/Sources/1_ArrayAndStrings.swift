@@ -14,7 +14,7 @@ extension ArrayAndStrings: ArrayAndStringsProtocol {
         if (optimal) {
             return isUnique.optimal(string: string)
         }
-        return isUnique.optimal(string: string)
+        return isUnique.naive(string: string)
     }
     
 }
